@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [12, 55, 66, 88, 41]
+        var flag = arr.some(function(value) {
+            return value >= 16
+        })
+        console.log(flag);
+
+
+        var arr1 = ['blue', 'pink', 'green']
+        var flag1 = arr1.some(function(value) {
+            return value == 'yellow'
+        })
+        console.log(flag1);
+        // 2. some 也是查找满足条件的元素是否存在  返回的是一个布尔值 如果查找到第一个满足条件的元素就终止循环
+    </script>
+</body>
+
+</html>
